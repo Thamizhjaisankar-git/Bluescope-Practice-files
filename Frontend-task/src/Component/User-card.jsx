@@ -18,14 +18,15 @@ class UserCard extends HTMLElement {
         <style>
           .card {
             padding: 10px;
-            background: #e3e3e3;
+            background: #63c944ff;
+            color: yellow;
             border-radius: 10px;
             margin: 10px;
             font-family: sans-serif;
           }
         </style>
   
-        <div class="card">
+        <div className="card">
           <h3>${this.getAttribute("name")}</h3>
           <p>${this.getAttribute("email")}</p>
         </div>

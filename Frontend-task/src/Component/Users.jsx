@@ -7,6 +7,7 @@ function Users(props){
             <p>Age: {props.age}</p>
             <p>city: {props.city}</p>
         </div>
+        
            
         </>
     );
