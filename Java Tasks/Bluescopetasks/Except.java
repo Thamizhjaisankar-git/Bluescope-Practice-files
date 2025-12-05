@@ -1,9 +1,8 @@
 package Bluescopetasks;
-//import java.util.*;
 import java.io.*; 
 
 public class Except {
-	//throws
+
 	public static void file() throws IOException{ 
 		FileReader f = new FileReader("myFile");
 	}
@@ -18,6 +17,15 @@ public class Except {
 		finally { 
 			System.out.println("Final block");
 		} 
+
+        try {
+            int result = 10 / 0;
+            System.out.println(result);
+        } catch (ArithmeticException e) {
+            System.out.println("Cannot divide by zero!");
+        }
+    
+
 	}
 }
 	
