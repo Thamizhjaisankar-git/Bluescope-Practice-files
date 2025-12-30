@@ -12,9 +12,9 @@ function App() {
         <CustomLogo /><br/>
         <CustomLogo style={{backgroundColor:"green", color:"white"}}>JL</CustomLogo><br/>
         <CustomLogo src="/admin1.png" />
-        {/* <Login />
+        <Login />
         <hr />
-        <Secure /> */}
+        <Secure /> 
       </div>
     </>
   )
